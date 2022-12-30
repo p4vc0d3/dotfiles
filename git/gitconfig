@@ -1,0 +1,21 @@
+[alias]
+    a = add
+
+    b = branch
+    ba = branch --all
+
+    c = commit
+    ca = commit --amend
+    cm = commit --message
+
+    l = log
+    lg = log --graph
+    lo = log --oneline
+
+    s = status --short --branch
+
+[include]
+    path = ~/.gitconfig_local
+
+[init]
+    defaultBranch = master
