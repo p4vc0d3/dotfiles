@@ -4,7 +4,7 @@
 
 export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME=""
 HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy-mm-dd"
@@ -34,3 +34,6 @@ alias cat="bat"
 # Git
 alias g="git"
 alias gs="git s"
+
+# Starship
+eval "$(starship init zsh)"
